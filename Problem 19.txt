@@ -1,0 +1,19 @@
+public class Basic{
+
+	public static void main(String args[]) {
+		
+		int a=28;
+		int squareRoot=(int)Math.round(Math.sqrt(a));
+		int cubeRoot=(int)Math.round(Math.cbrt(a));
+		
+
+		if((int)Math.pow(squareRoot, 2)==a) {
+			System.out.println("perfect square");
+		}
+		else if((int)Math.pow(cubeRoot, 3)==a){
+			System.out.println("perfect cube");
+		}
+
+	}
+	
+}
