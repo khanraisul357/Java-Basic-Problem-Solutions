@@ -1,0 +1,28 @@
+public class Basic{
+	
+   
+	public static void main(String args[]) {
+		
+		int N=11;
+		
+		
+		int count=0,first=0,second=1,fibo=0;
+		
+		while(count<N) {
+			if(count<=1) {
+				fibo=count;
+				System.out.print(fibo+" ");
+			}
+			else {
+				fibo=first+second;
+				first=second;
+				second=fibo;
+				System.out.print(fibo+" ");
+			}
+			count++;
+		}
+	
+
+	}
+	
+}
